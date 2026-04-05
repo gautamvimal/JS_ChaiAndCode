@@ -15,3 +15,20 @@ console.log(booleanIsLoggedIn);
 // "vim" => true 
 
 
+//**********************Operations****************/
+
+
+let value = 3
+let negValue = -value;
+console.log(negValue);
+
+console.log("1" + 2);// concatinated as string
+console.log(1 + "2");// concatinated as string
+console.log("1" + 2 + 2);// concatinated as string
+console.log(1 + 2 + "2");added first the // concatinated as string
+
+console.log(+true);
+console.log(+"");
+
+
+
