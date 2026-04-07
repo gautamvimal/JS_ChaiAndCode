@@ -25,7 +25,7 @@ console.log(negValue);
 console.log("1" + 2);// concatinated as string
 console.log(1 + "2");// concatinated as string
 console.log("1" + 2 + 2);// concatinated as string
-console.log(1 + 2 + "2");added first the // concatinated as string
+console.log(1 + 2 + "2");//added first then concatinated as string
 
 console.log(+true);
 console.log(+"");

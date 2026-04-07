@@ -24,3 +24,32 @@ const myFunction = function(){
 
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//************************************/
+
+//there are two types of memory
+//stack , Heap
+// stack is used in all primitive datatypes(jo bhi apne var declare kiya hai uska apko "copy milta hai")
+// and heap is used in all the non-primitive datatypes (and in heap hamye refernce milta hai means original value)
+
+let myName = "vimcoo"
+let anothername = myName
+anothername = "shicoo"
+
+console.log(myName);
+console.log(anothername);//here the value got change bcz it copied the value(call by value)
+
+
+let userone = {
+    email : "paglu@google.com",
+    nickname : "lala",
+}
+
+let usersecond = userone 
+
+userone.email = "dablu@google.com";
+console.log(usersecond.email);//here the value got change bcz it took call by refernce
+
+
