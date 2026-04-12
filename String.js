@@ -23,5 +23,9 @@ const newStringOne = "   vim    ";
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
+const url = "https://vim.com/vim%20gtm";
+console.log(url.replace('%20',' '));
+
+
 
 
