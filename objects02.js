@@ -32,3 +32,32 @@ const obj3 = {5:"a",6:"b"}
 // console.log(obj4);
 const obj4 = {...obj1,...obj2,...obj3}//with using separtors **mostly use
 console.log(obj4);
+
+
+const user = [
+    {
+        id:1,
+        name:"v"
+    },
+    {
+        id:2,
+        name:"i"
+    },
+    {
+        id:3,
+        name:"m"
+    },
+    {
+        id:4,
+        name:"a"
+    }
+]
+
+console.log(user[1].name);
+
+
+console.log(Object.keys(tinderUser));//here its reslut is in array [ 'id', 'name', 'isLoogedIn' ]
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('isLoogedIn'));
